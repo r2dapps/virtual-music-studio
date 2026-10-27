@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
-    <title>MAHATI — Virtual Music Studio</title>
+    <title>MAHATI — Virtual Music Studio | Razel Tech</title>
     
     <!-- Deep SEO & OpenGraph Meta Tags -->
-    <meta name="description" content="MAHATI (virtual-music-studio) — Flagship multi-touch polyphonic music studio with interactive song tutorials (Happy Birthday, Harry Potter, Christmas), sustained long-press grand piano, physics guitar, drum stage, bowed strings, harp, sub-bass, and XY synth.">
-    <meta name="keywords" content="MAHATI, virtual-music-studio, online music studio, piano song tutorials, multi-touch synthesizer, polyphonic piano long press, virtual guitar fretboard, web audio workstation">
-    <meta name="author" content="MAHATI // virtual-music-studio">
+    <meta name="description" content="MAHATI by Razel Tech — Flagship multi-touch polyphonic music studio with interactive song tutorials, sustained long-press grand piano, physics guitar, drum stage, bowed strings, harp, sub-bass, and XY synth. 100% procedural Web Audio.">
+    <meta name="keywords" content="MAHATI, virtual music studio, Razel Tech, online music workstation, piano song tutorials, multi-touch synthesizer, polyphonic piano, virtual guitar fretboard, web audio DAW, PWA">
+    <meta name="author" content="Raja Vamsi Dhar Vallabhapurapu // Razel Tech">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#050508">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -19,38 +19,82 @@
     <!-- PWA Web App Manifest (Dynamic Blob + Local manifest.json Fallback) -->
     <link rel="manifest" id="pwa-manifest-link" href="manifest.json">
 
-    <!-- Open Graph / Social Sharing -->
+    <!-- Canonical URL & Open Graph / Social Sharing -->
+    <link rel="canonical" href="https://razeltech.github.io/virtual-music-studio/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="MAHATI — Virtual Music Studio">
-    <meta property="og:description" content="Multi-touch polyphonic workstation with interactive song tutorials, sustained long-press piano, physics guitar, visual drum stage, bowed strings, and harp.">
-    <meta property="og:site_name" content="MAHATI">
-    <meta property="og:image" content="assets/og-preview.png">
-    <meta property="og:image:secure_url" content="assets/og-preview.png">
+    <meta property="og:url" content="https://razeltech.github.io/virtual-music-studio/">
+    <meta property="og:title" content="MAHATI — Virtual Music Studio | Razel Tech">
+    <meta property="og:description" content="Multi-touch polyphonic workstation with interactive song tutorials, sustained long-press piano, physics guitar, visual drum stage, bowed strings, and harp. Zero audio samples.">
+    <meta property="og:site_name" content="Razel Tech">
+    <meta property="og:image" content="https://razeltech.github.io/virtual-music-studio/assets/og-preview.png">
+    <meta property="og:image:secure_url" content="https://razeltech.github.io/virtual-music-studio/assets/og-preview.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
-    <meta property="og:image:alt" content="MAHATI Virtual Music Studio">
+    <meta property="og:image:alt" content="MAHATI Virtual Music Studio by Razel Tech">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MAHATI — Virtual Music Studio">
-    <meta name="twitter:description" content="Pro-grade multi-touch virtual instrument rack powered by real-time Web Audio synthesis.">
-    <meta name="twitter:image" content="assets/og-preview.png">
+    <meta name="twitter:site" content="@razeltech">
+    <meta name="twitter:creator" content="@razeltech">
+    <meta name="twitter:title" content="MAHATI — Virtual Music Studio | Razel Tech">
+    <meta name="twitter:description" content="Pro-grade multi-touch virtual instrument rack powered by real-time Web Audio synthesis. Developed by Razel Tech.">
+    <meta name="twitter:image" content="https://razeltech.github.io/virtual-music-studio/assets/og-preview.png">
 
-    <!-- Structured Data JSON-LD for Deep SEO -->
+    <!-- Structured Data JSON-LD — Direct Entity Map for AI Crawlers & Google Search -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "MAHATI",
-      "alternateName": "virtual-music-studio",
-      "applicationCategory": "MultimediaApplication",
-      "operatingSystem": "All",
-      "description": "Real-time multi-touch polyphonic music studio with interactive famous song tutorials, long-press sustained grand piano, physics guitar, customizable drum kit, bowed violin/cello, concert harp, and XY synthesizer.",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
+    [
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "MAHATI — Virtual Music Studio",
+        "alternateName": ["MAHATI", "virtual-music-studio"],
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "All",
+        "browserRequirements": "Requires HTML5 Web Audio API and Canvas support",
+        "url": "https://razeltech.github.io/virtual-music-studio/",
+        "image": "https://razeltech.github.io/virtual-music-studio/assets/og-preview.png",
+        "screenshot": "https://razeltech.github.io/virtual-music-studio/assets/banner.png",
+        "description": "Real-time multi-touch polyphonic music studio with interactive song tutorials, sustained grand piano, physics guitar, drum kit, bowed strings, harp, and XY synthesizer.",
+        "author": {
+          "@type": "Organization",
+          "name": "Razel Tech",
+          "url": "https://razeltech.github.io",
+          "logo": "https://razeltech.github.io/logo.png"
+        },
+        "creator": {
+          "@type": "Person",
+          "name": "Raja Vamsi Dhar Vallabhapurapu",
+          "jobTitle": "Systems Architect & Technical Lead"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Razel Tech",
+        "url": "https://razeltech.github.io",
+        "logo": "https://razeltech.github.io/logo.png",
+        "email": "razeltech.in@gmail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Guntur",
+          "addressRegion": "Andhra Pradesh",
+          "addressCountry": "IN"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/company/razel-tech",
+          "https://github.com/razeltech"
+        ],
+        "founder": {
+          "@type": "Person",
+          "name": "Raja Vamsi Dhar Vallabhapurapu",
+          "jobTitle": "Systems Architect & Technical Lead"
+        }
       }
-    }
+    ]
     </script>
 
     <!-- Dynamic SVG Favicon (Golden Music Note Crest) -->
@@ -306,13 +350,47 @@
                 <i class="fa-solid fa-mobile-screen-button rotate-90"></i>
                 <i class="fa-solid fa-rotate text-[10px]"></i>
             </button>
-            <button onclick="triggerPWAInstall()" id="pwa-install-btn" class="px-3 py-1 rounded-xl bg-amber-500 hover:bg-amber-400 text-zinc-950 font-bold text-xs flex items-center space-x-1.5 shadow-lg shadow-amber-500/25 transition-all active:scale-95">
+            <button onclick="triggerPWAInstall()" id="pwa-install-btn" class="px-3 py-1 rounded-xl bg-amber-500 hover:bg-amber-400 text-zinc-950 font-bold text-xs flex items-center space-x-1.5 shadow-lg shadow-amber-500/25 transition-all active:scale-95" title="Install App">
                 <i class="fa-solid fa-download text-[11px]"></i>
-                <i class="fa-solid fa-mobile-screen text-[11px]"></i>
+                <span class="hidden sm:inline">Install Studio</span>
             </button>
-            <button onclick="dismissPWABanner()" class="w-7 h-7 rounded-xl bg-zinc-900/80 hover:bg-zinc-800 text-zinc-400 hover:text-white flex items-center justify-center transition-all">
+            <button onclick="dismissPWABanner()" class="w-7 h-7 rounded-xl bg-zinc-900/80 hover:bg-zinc-800 text-zinc-400 hover:text-white flex items-center justify-center transition-all" title="Dismiss">
                 <i class="fa-solid fa-xmark text-xs"></i>
             </button>
+        </div>
+    </div>
+
+    <!-- iOS / iPadOS PWA Installation Sheet -->
+    <div id="ios-install-modal" class="fixed inset-0 z-[110] bg-black/80 backdrop-blur-md hidden items-center justify-center p-4">
+        <div class="bg-zinc-950 border border-zinc-800 rounded-3xl p-6 max-w-sm w-full shadow-2xl relative">
+            <div class="flex items-center space-x-3 mb-4">
+                <div class="w-10 h-10 rounded-2xl bg-amber-500/20 border border-amber-400/40 flex items-center justify-center text-amber-400">
+                    <i class="fa-solid fa-music text-base"></i>
+                </div>
+                <div>
+                    <h3 class="font-bold text-sm text-zinc-100">Install MAHATI Studio</h3>
+                    <p class="text-[11px] text-zinc-400 font-mono">Apple iOS / iPadOS PWA</p>
+                </div>
+            </div>
+            <div class="space-y-3 text-xs text-zinc-300 border-y border-zinc-900 py-4">
+                <div class="flex items-start space-x-3">
+                    <span class="w-5 h-5 rounded-full bg-zinc-800 text-amber-400 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">1</span>
+                    <p>Tap the <span class="font-bold text-white">Share</span> button <i class="fa-solid fa-arrow-up-from-bracket text-indigo-400 mx-1"></i> in Safari's bottom toolbar.</p>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <span class="w-5 h-5 rounded-full bg-zinc-800 text-amber-400 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">2</span>
+                    <p>Scroll down and tap <span class="font-bold text-white">Add to Home Screen</span> <i class="fa-regular fa-square-plus text-emerald-400 mx-1"></i>.</p>
+                </div>
+                <div class="flex items-start space-x-3">
+                    <span class="w-5 h-5 rounded-full bg-zinc-800 text-amber-400 flex items-center justify-center font-bold text-[10px] shrink-0 mt-0.5">3</span>
+                    <p>Launch directly from your Home Screen for zero-latency, full-screen polyphonic performance.</p>
+                </div>
+            </div>
+            <div class="mt-4 flex justify-end">
+                <button onclick="closeIOSInstallModal()" class="w-full py-2.5 rounded-xl bg-zinc-800 hover:bg-zinc-700 text-zinc-200 font-semibold text-xs transition-all">
+                    Understood
+                </button>
+            </div>
         </div>
     </div>
 
@@ -686,6 +764,9 @@
             </div>
             <button onclick="toggleMasterDelay()" id="btn-fx" class="w-9 h-9 rounded-xl bg-indigo-600/20 border border-indigo-500/40 text-indigo-400 flex items-center justify-center transition-all">
                 <i class="fa-solid fa-satellite-dish text-xs"></i>
+            </button>
+            <button onclick="triggerPWAInstall()" id="dock-install-btn" class="hidden w-9 h-9 rounded-xl bg-amber-500/15 border border-amber-500/40 text-amber-400 hover:bg-amber-500 hover:text-black flex items-center justify-center transition-all" title="Install MAHATI Studio as Native App">
+                <i class="fa-solid fa-download text-xs"></i>
             </button>
             <button onclick="requestLandscapeFullscreen()" class="w-9 h-9 rounded-xl bg-zinc-800 text-zinc-400 hover:text-amber-400 flex items-center justify-center transition-all" title="Landscape Fullscreen">
                 <i class="fa-solid fa-rotate text-xs"></i>
@@ -1115,78 +1196,108 @@
            ========================================================================= */
         let deferredPWAPrompt = null;
 
-        function initPWASupport() {
-            // 1. Check if running as installed Standalone PWA or iOS WebApp
-            const isStandalone = window.matchMedia('(display-mode: standalone)').matches
+        function isIOSDevice() {
+            return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+        }
+
+        function isStandaloneApp() {
+            return window.matchMedia('(display-mode: standalone)').matches
                 || window.matchMedia('(display-mode: fullscreen)').matches
+                || window.matchMedia('(display-mode: minimal-ui)').matches
                 || window.navigator.standalone === true;
+        }
 
+        function initPWASupport() {
+            const isStandalone = isStandaloneApp();
             const banner = document.getElementById('web-only-pwa-banner');
-            if (isStandalone && banner) {
-                banner.style.display = 'none';
+            const dockBtn = document.getElementById('dock-install-btn');
+
+            if (isStandalone) {
+                if (banner) banner.style.display = 'none';
+                if (dockBtn) dockBtn.classList.add('hidden');
+                return;
             }
 
-            // 2. Dynamically attach a full landscape-first Web Manifest if local manifest.json isn't loaded yet
-            const manifestObj = {
-                name: "MAHATI — Virtual Music Studio",
-                short_name: "MAHATI",
-                start_url: "./",
-                display: "standalone",
-                orientation: "landscape",
-                background_color: "#040407",
-                theme_color: "#050508",
-                icons: [
-                    {
-                        src: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'%3E%3Crect width='192' height='192' rx='42' fill='%23050508'/%3E%3Cpath d='M78 134 V58 L138 44 V120' fill='none' stroke='%23f59e0b' stroke-width='14' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='62' cy='134' r='18' fill='%236366f1'/%3E%3Ccircle cx='122' cy='120' r='18' fill='%2310b981'/%3E%3C/svg%3E",
-                        sizes: "192x192",
-                        type: "image/svg+xml",
-                        purpose: "any maskable"
-                    },
-                    {
-                        src: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='110' fill='%23050508'/%3E%3Cpath d='M210 356 V154 L368 118 V320' fill='none' stroke='%23f59e0b' stroke-width='36' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='168' cy='356' r='46' fill='%236366f1'/%3E%3Ccircle cx='326' cy='320' r='46' fill='%2310b981'/%3E%3C/svg%3E",
-                        sizes: "512x512",
-                        type: "image/svg+xml",
-                        purpose: "any maskable"
-                    }
-                ]
-            };
+            // Ensure canonical static W3C manifest is used
+            const linkEl = document.getElementById('pwa-manifest-link');
+            if (linkEl && !linkEl.getAttribute('href').endsWith('manifest.json')) {
+                linkEl.setAttribute('href', 'manifest.json');
+            }
 
-            try {
-                const blob = new Blob([JSON.stringify(manifestObj)], { type: 'application/json' });
-                const manifestURL = URL.createObjectURL(blob);
-                const linkEl = document.getElementById('pwa-manifest-link');
-                if (linkEl) linkEl.setAttribute('href', manifestURL);
-            } catch (_) {}
-
-            // 3. Register Service Worker if sw.js exists in local repo
+            // Register Service Worker for offline capability & fast launch
             if ('serviceWorker' in navigator) {
-                navigator.serviceWorker.register('./sw.js').catch(() => {});
+                navigator.serviceWorker.register('./sw.js', { scope: './' }).then((reg) => {
+                    reg.onupdatefound = () => {
+                        const installingWorker = reg.installing;
+                        if (installingWorker) {
+                            installingWorker.onstatechange = () => {
+                                if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
+                                    console.log('MAHATI Studio cache update available.');
+                                }
+                            };
+                        }
+                    };
+                }).catch(() => {});
             }
 
+            // Android & Desktop Chrome / Edge Install Prompt
             window.addEventListener('beforeinstallprompt', (e) => {
                 e.preventDefault();
                 deferredPWAPrompt = e;
+
+                if (!localStorage.getItem('mahati_pwa_dismissed')) {
+                    if (banner) banner.style.display = 'flex';
+                }
+                if (dockBtn) dockBtn.classList.remove('hidden');
             });
 
+            // iOS / iPadOS Safari detection
+            if (isIOSDevice()) {
+                if (!localStorage.getItem('mahati_pwa_dismissed')) {
+                    if (banner) banner.style.display = 'flex';
+                }
+                if (dockBtn) dockBtn.classList.remove('hidden');
+            }
+
             window.addEventListener('appinstalled', () => {
+                deferredPWAPrompt = null;
                 if (banner) banner.style.display = 'none';
+                if (dockBtn) dockBtn.classList.add('hidden');
             });
         }
 
         async function triggerPWAInstall() {
             if (deferredPWAPrompt) {
                 deferredPWAPrompt.prompt();
-                await deferredPWAPrompt.userChoice;
+                const choice = await deferredPWAPrompt.userChoice;
+                if (choice && choice.outcome === 'accepted') {
+                    const banner = document.getElementById('web-only-pwa-banner');
+                    if (banner) banner.style.display = 'none';
+                }
                 deferredPWAPrompt = null;
+            } else if (isIOSDevice()) {
+                const modal = document.getElementById('ios-install-modal');
+                if (modal) {
+                    modal.classList.remove('hidden');
+                    modal.classList.add('flex');
+                }
             } else {
-                // Fallback: Lock to landscape fullscreen studio view
                 requestLandscapeFullscreen();
+            }
+        }
+
+        function closeIOSInstallModal() {
+            const modal = document.getElementById('ios-install-modal');
+            if (modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
             }
         }
 
         function dismissPWABanner() {
             const banner = document.getElementById('web-only-pwa-banner');
             if (banner) banner.style.display = 'none';
+            localStorage.setItem('mahati_pwa_dismissed', 'true');
         }
 
         /* =========================================================================
@@ -2355,6 +2466,7 @@
 
             const osc1 = audioCtx.createOscillator();
             const osc2 = audioCtx.createOscillator();
+            let osc3 = null;
             const lfo = audioCtx.createOscillator();
             const lfoGain = audioCtx.createGain();
             const filter = audioCtx.createBiquadFilter();
@@ -2367,12 +2479,40 @@
             lfoGain.connect(osc1.frequency);
 
             if (pianoVoice === 'grand') {
+                // Triple-string acoustic grand unison physics
                 osc1.type = 'triangle';
                 osc2.type = 'sawtooth';
-                osc2.detune.value = 4;
+                osc2.detune.value = 3.8;
+
+                osc3 = audioCtx.createOscillator();
+                osc3.type = 'triangle';
+                osc3.detune.value = -3.2;
+                osc3.frequency.setValueAtTime(freq, now);
+
                 filter.type = 'lowpass';
-                filter.frequency.setValueAtTime(freq * 6.5, now);
-                filter.frequency.exponentialRampToValueAtTime(freq * 2.4, now + 0.6);
+                filter.frequency.setValueAtTime(freq * 7.2, now);
+                filter.frequency.exponentialRampToValueAtTime(freq * 2.6, now + 0.45);
+                filter.Q.value = 1.4;
+
+                // Acoustic felt hammer impact transient
+                const hammerLen = Math.floor(audioCtx.sampleRate * 0.016);
+                const hammerBuf = audioCtx.createBuffer(1, hammerLen, audioCtx.sampleRate);
+                const hData = hammerBuf.getChannelData(0);
+                for (let i = 0; i < hammerLen; i++) {
+                    hData[i] = (Math.random() * 2 - 1) * Math.exp(-i / (audioCtx.sampleRate * 0.0035));
+                }
+                const hammer = audioCtx.createBufferSource();
+                hammer.buffer = hammerBuf;
+                const hammerFilter = audioCtx.createBiquadFilter();
+                hammerFilter.type = 'bandpass';
+                hammerFilter.frequency.setValueAtTime(Math.min(3400, freq * 3.8), now);
+                hammerFilter.Q.value = 1.6;
+                const hammerGain = audioCtx.createGain();
+                hammerGain.gain.setValueAtTime(0.18, now);
+                hammer.connect(hammerFilter);
+                hammerFilter.connect(hammerGain);
+                hammerGain.connect(masterGain);
+                hammer.start(now);
             } else if (pianoVoice === 'epiano') {
                 osc1.type = 'sine';
                 osc2.type = 'triangle';
@@ -2403,19 +2543,21 @@
 
             // Continuous hold envelope: attacks quickly, then holds steady as long as finger presses key
             env.gain.setValueAtTime(0.001, now);
-            env.gain.linearRampToValueAtTime(0.30, now + 0.012);
-            env.gain.setTargetAtTime(0.22, now + 0.02, 0.25);
+            env.gain.linearRampToValueAtTime(0.32, now + 0.012);
+            env.gain.setTargetAtTime(0.24, now + 0.02, 0.25);
 
             osc1.connect(filter);
             osc2.connect(filter);
+            if (osc3) osc3.connect(filter);
             filter.connect(env);
             env.connect(masterGain);
 
             osc1.start(now);
             osc2.start(now);
+            if (osc3) osc3.start(now);
             lfo.start(now);
 
-            return { osc1, osc2, lfo, env };
+            return { osc1, osc2, osc3, lfo, env };
         }
 
         function stopPianoPointerVoice(pointerId) {
@@ -2436,7 +2578,7 @@
 
             if (entry.voiceObj && audioCtx) {
                 const now = audioCtx.currentTime;
-                const relTime = sustainActive ? 0.85 : 0.14;
+                const relTime = sustainActive ? 0.95 : 0.16;
                 entry.voiceObj.env.gain.cancelScheduledValues(now);
                 entry.voiceObj.env.gain.setValueAtTime(Math.max(0.001, entry.voiceObj.env.gain.value), now);
                 entry.voiceObj.env.gain.exponentialRampToValueAtTime(0.0001, now + relTime);
@@ -2444,6 +2586,7 @@
                     try {
                         entry.voiceObj.osc1.stop();
                         entry.voiceObj.osc2.stop();
+                        if (entry.voiceObj.osc3) entry.voiceObj.osc3.stop();
                         entry.voiceObj.lfo.stop();
                     } catch (_) {}
                 }, relTime * 1000 + 60);
@@ -2556,92 +2699,131 @@
             const freq = baseStringFreqs[stringIdx] * Math.pow(2, fret / 12);
             const resMult = parseFloat(document.getElementById('guitar-resonance')?.value || 100) / 100;
 
-            const osc1 = audioCtx.createOscillator();
-            const osc2 = audioCtx.createOscillator();
-            const subOsc = audioCtx.createOscillator();
-            const filter = audioCtx.createBiquadFilter();
-            const bodyFilter = audioCtx.createBiquadFilter();
-            const env = audioCtx.createGain();
+            // Physical Modeling via Karplus-Strong string algorithm with wooden body resonance
+            const sampleRate = audioCtx.sampleRate;
+            const dur = Math.max(1.5, (guitarTone === 'overdrive' ? 3.2 : (guitarTone === 'electric' ? 2.8 : 2.2)) * resMult);
+            const totalSamples = Math.floor(sampleRate * Math.min(dur, 4.0));
+            const buffer = audioCtx.createBuffer(1, totalSamples, sampleRate);
+            const data = buffer.getChannelData(0);
 
-            if (guitarTone === 'acoustic') {
-                osc1.type = 'sawtooth';
-                osc2.type = 'triangle';
-                osc2.detune.value = 3.5;
-                filter.type = 'lowpass';
-                const brightness = 1900 + pluckRatioX * 2800;
-                filter.frequency.setValueAtTime(brightness, now);
-                filter.frequency.exponentialRampToValueAtTime(freq * 2.2, now + 0.35);
-                filter.frequency.exponentialRampToValueAtTime(freq * 1.2, now + 1.8 * resMult);
-                filter.Q.value = 2.6;
-            } else if (guitarTone === 'nylon') {
-                osc1.type = 'triangle';
-                osc2.type = 'sine';
-                osc2.detune.value = 2;
-                filter.type = 'lowpass';
-                filter.frequency.setValueAtTime(1600 + pluckRatioX * 1200, now);
-                filter.frequency.exponentialRampToValueAtTime(freq * 1.1, now + 1.5 * resMult);
-                filter.Q.value = 1.5;
+            // Calculate precise loop delay with phase-lag compensation
+            const loopDelay = (sampleRate / freq) - 0.5;
+            const N = Math.max(4, Math.floor(loopDelay));
+            const frac = Math.max(0, Math.min(1, loopDelay - N));
+
+            // Pluck dynamics & position shaping
+            const pluckDist = Math.max(0.12, Math.min(0.88, pluckRatioX));
+            const combTap = Math.max(2, Math.floor(N * (1 - pluckDist)));
+
+            // String seed excitation (shaped noise burst with high-frequency roll-off for finger/pick transient)
+            const seedLen = N + 3;
+            for (let i = 0; i <= seedLen; i++) {
+                const noise = (Math.random() * 2 - 1);
+                data[i] = noise * (guitarTone === 'nylon' ? 0.65 : 0.85);
+            }
+            // Spatial comb notch from pick location
+            for (let i = seedLen; i >= combTap; i--) {
+                data[i] -= data[i - combTap] * 0.45;
+            }
+
+            // String decay constant (rho) and lowpass damping weight (alpha)
+            let rho = 0.993;
+            let alpha = 0.50; // standard 2-point averaging
+            if (guitarTone === 'nylon') {
+                rho = 0.988;
+                alpha = 0.62; // warmer, higher harmonics damp faster
             } else if (guitarTone === 'electric') {
-                osc1.type = 'sawtooth';
-                osc2.type = 'square';
-                osc2.detune.value = 6;
-                filter.type = 'lowpass';
-                filter.frequency.setValueAtTime(4000, now);
-                filter.frequency.exponentialRampToValueAtTime(900, now + 2.0 * resMult);
-                filter.Q.value = 4.2;
+                rho = 0.996;
+                alpha = 0.48; // bright steel sustain
+            } else if (guitarTone === 'overdrive') {
+                rho = 0.9975;
+                alpha = 0.45; // long singing sustain
+            }
+            rho = Math.min(0.9985, rho * (0.99 + 0.01 * resMult));
+
+            // Karplus-Strong circulating loop synthesis
+            for (let i = seedLen + 1; i < totalSamples; i++) {
+                const d0 = data[i - N] || 0;
+                const d1 = data[i - N - 1] || 0;
+                const d2 = data[i - N - 2] || 0;
+                const tap0 = d0 * (1 - frac) + d1 * frac;
+                const tap1 = d1 * (1 - frac) + d2 * frac;
+                data[i] = rho * (tap0 * (1 - alpha) + tap1 * alpha);
+            }
+
+            // Playback physical string node
+            const stringSrc = audioCtx.createBufferSource();
+            stringSrc.buffer = buffer;
+
+            // Wooden soundboard body filter 1 (air cavity resonance ~105Hz)
+            const bodyAir = audioCtx.createBiquadFilter();
+            bodyAir.type = 'peaking';
+            bodyAir.frequency.value = 105;
+            bodyAir.Q.value = 2.0;
+            bodyAir.gain.value = guitarTone === 'nylon' || guitarTone === 'acoustic' ? 4.0 : 1.5;
+
+            // Wooden soundboard body filter 2 (spruce/mahogany top resonance ~215Hz)
+            const bodyTop = audioCtx.createBiquadFilter();
+            bodyTop.type = 'peaking';
+            bodyTop.frequency.value = 215;
+            bodyTop.Q.value = 2.8;
+            bodyTop.gain.value = guitarTone === 'acoustic' ? 6.0 : (guitarTone === 'nylon' ? 4.5 : 2.0);
+
+            // Amp / Tone shaper
+            const toneFilter = audioCtx.createBiquadFilter();
+            if (guitarTone === 'nylon') {
+                toneFilter.type = 'lowpass';
+                toneFilter.frequency.value = 4200;
+                toneFilter.Q.value = 0.8;
+            } else if (guitarTone === 'acoustic') {
+                toneFilter.type = 'highshelf';
+                toneFilter.frequency.value = 3200;
+                toneFilter.gain.value = 2.0;
+            } else if (guitarTone === 'electric') {
+                toneFilter.type = 'peaking';
+                toneFilter.frequency.value = 2800;
+                toneFilter.Q.value = 1.8;
+                toneFilter.gain.value = 3.0;
             } else {
-                // Overdrive Lead
-                osc1.type = 'sawtooth';
-                osc2.type = 'sawtooth';
-                osc2.detune.value = 12;
-                filter.type = 'bandpass';
-                filter.frequency.setValueAtTime(1400 + pluckRatioX * 1300, now);
-                filter.Q.value = 2.0;
+                // Overdrive
+                toneFilter.type = 'bandpass';
+                toneFilter.frequency.value = 1800;
+                toneFilter.Q.value = 2.2;
             }
 
-            osc1.frequency.setValueAtTime(freq, now);
-            osc2.frequency.setValueAtTime(freq, now);
-            subOsc.type = 'sine';
-            subOsc.frequency.setValueAtTime(freq, now);
-
-            // Pick transient
-            const noiseBuf = audioCtx.createBuffer(1, audioCtx.sampleRate * 0.024, audioCtx.sampleRate);
-            const nData = noiseBuf.getChannelData(0);
-            for (let i = 0; i < nData.length; i++) {
-                nData[i] = (Math.random() * 2 - 1) * Math.exp(-i / (audioCtx.sampleRate * 0.005));
-            }
-            const pickNoise = audioCtx.createBufferSource();
-            pickNoise.buffer = noiseBuf;
-            const pickGain = audioCtx.createGain();
-            pickGain.gain.value = guitarTone === 'nylon' ? 0.12 : 0.25;
-
-            bodyFilter.type = 'peaking';
-            bodyFilter.frequency.value = 215;
-            bodyFilter.gain.value = 5.5;
-
-            const dur = (guitarTone === 'overdrive' ? 2.5 : 1.9) * resMult;
+            const env = audioCtx.createGain();
+            const peakGain = guitarTone === 'overdrive' ? 0.22 : 0.28;
             env.gain.setValueAtTime(0.001, now);
-            env.gain.linearRampToValueAtTime(0.32, now + 0.007);
-            env.gain.exponentialRampToValueAtTime(0.0008, now + dur);
+            env.gain.linearRampToValueAtTime(peakGain, now + 0.004);
+            env.gain.exponentialRampToValueAtTime(0.0001, now + dur);
 
-            osc1.connect(filter);
-            osc2.connect(filter);
-            subOsc.connect(filter);
-            pickNoise.connect(pickGain);
-            pickGain.connect(filter);
+            // Signal routing
+            if (guitarTone === 'overdrive') {
+                // Non-linear soft saturation waveshaper
+                const shaper = audioCtx.createWaveShaper();
+                const curveSamples = 256;
+                const curve = new Float32Array(curveSamples);
+                for (let k = 0; k < curveSamples; k++) {
+                    const x = (k * 2) / curveSamples - 1;
+                    curve[k] = Math.tanh(x * 3.2);
+                }
+                shaper.curve = curve;
+                shaper.oversample = '2x';
 
-            filter.connect(bodyFilter);
-            bodyFilter.connect(env);
+                stringSrc.connect(bodyAir);
+                bodyAir.connect(shaper);
+                shaper.connect(toneFilter);
+                toneFilter.connect(env);
+            } else {
+                stringSrc.connect(bodyAir);
+                bodyAir.connect(bodyTop);
+                bodyTop.connect(toneFilter);
+                toneFilter.connect(env);
+            }
+
             env.connect(masterGain);
-
-            osc1.start(now);
-            osc2.start(now);
-            subOsc.start(now);
-            pickNoise.start(now);
-
-            osc1.stop(now + dur);
-            osc2.stop(now + dur);
-            subOsc.stop(now + dur);
+            stringSrc.start(now);
+            stringSrc.stop(now + dur);
         }
 
         function triggerGuitarString(sIdx, fret, ratioX) {
