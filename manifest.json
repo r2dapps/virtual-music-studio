@@ -1,0 +1,51 @@
+{
+  "name": "MAHATI — Virtual Music Studio",
+  "short_name": "MAHATI",
+  "description": "Multi-touch polyphonic workstation with sustained piano, physics guitar, drum kit, bowed strings, harp, sub-bass, and interactive song trainer.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#040407",
+  "theme_color": "#050508",
+  "categories": [
+    "music",
+    "multimedia",
+    "productivity",
+    "entertainment"
+  ],
+  "icons": [
+    {
+      "src": "assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/og-preview.png",
+      "sizes": "1200x630",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "MAHATI Virtual Music Studio Interface"
+    }
+  ]
+}
